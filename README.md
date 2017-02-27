@@ -14,7 +14,7 @@ It's my basic selenium project.
 
 ### 常用指令
 - 取得 url => selenium.browserbot.getCurrentWindow().document.URL
-- 使用 jquery => elementselenium.browserbot.getUserWindow().jQuery(".selector")
+- 使用 jquery => element selenium.browserbot.getUserWindow().jQuery(".selector")
 - 塞入變數 => storeEval | value | variable
 - 驗證變數 => assertEval | ${variable} | value
 - 執行 script => runScript | javascript{alert('xxx')} |
